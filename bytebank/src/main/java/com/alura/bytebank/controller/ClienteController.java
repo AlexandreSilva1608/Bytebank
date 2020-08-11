@@ -26,6 +26,7 @@ public class ClienteController {
 	@Autowired
 	private ClienteService clienteService;
 
+	
 	@GetMapping
 	public List<Cliente> buscaCliente() {
 		return clienteService.buscaCliente();
